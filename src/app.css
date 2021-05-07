@@ -1,0 +1,24 @@
+h1 {
+    color: rgb(0, 112, 210);
+}
+p {
+    font-family: 'Salesforce Sans', Arial, sans-serif;
+    color: rgb(62, 62, 60);
+}
+.app {
+    background-color: #fafaf9;
+    height: 100vh;
+    overflow: scroll;
+}
+.cpa-button__base{
+  --sds-c-button-brand-color-background: #BB00FF;
+  --sds-c-button-brand-color-background-hover: #8700B8;
+  --sds-c-button-brand-color-border: #BB00FF;
+  --sds-c-button-brand-color-border-hover: #8700B8;
+}
+.cpa-button__base:hover{
+    --sds-c-button-brand-color-background: #511c64;
+  --sds-c-button-brand-color-background-hover: #511c64;
+  --sds-c-button-brand-color-border: #511c64;
+  --sds-c-button-brand-color-border-hover: #511c64;
+}
